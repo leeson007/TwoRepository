@@ -53,7 +53,7 @@ public class Kongzhiliu {
 	/*
 	 * 检查是否存在某元素方法（通过id）
 	 */
-	@SuppressWarnings("unused") //强迫症患者
+	/*@SuppressWarnings("unused") //强迫症患者
 	private boolean IsElementPresent(WebDriver driver,String key){
 		try{
 			driver.findElement(By.id(key));
@@ -62,7 +62,7 @@ public class Kongzhiliu {
 			e.printStackTrace();
 			return false;
 		}
-	}
+	}*/
 	
 	
 }
